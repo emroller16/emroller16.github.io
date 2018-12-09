@@ -58,21 +58,15 @@
             </div>
             <div class="md-layout-item md-medium-size-50 md-small-size-100 md-xsmall-size-100">
               <p class="md-display-1 title-text">Psychology nerd</p>
-              <p>I'm fascinated by the underpinnings of human behavior. Exposure to concepts such as
-                social networks analysis, satisficing, decision-making heuristics and psychological
-                distanceAs a research assistant in the Judgment and Decision-making Lab at the University
-                of Connected was just the beginnings of an obsession. From "Thinking Fast and Slow" and
-                "Nudge" to "Algorithms to Live By" and "Habits" I get a kick out of thinking about thinking.
-                A background in psychology fuels an obsessive need to understand what people actually do,
+              <p>I'm fascinated by the underpinnings of human behavior. A background in psychology
+                fuels an obsessive need to understand what people actually do,
                 not just what they say they'll do. </p>
             </div>
             <div class="md-layout-item md-medium-size-50 md-small-size-100 md-xsmall-size-100">
               <p class="md-display-1 title-text">Frontend dabbler</p>
-              <p>I like CSS. I can't call myself a full stack developer but I can run an npm install and
-                I can pronbably beat you in FLexbox Froggy. I've worked in Bootstrap, AngularJS, Angular,
+              <p>I like CSS and I can probably beat you in FLexbox Froggy. I've worked in Bootstrap, AngularJS, Angular,
                 and Vue.JS. I'm comfortable with SCSS and LESS know enough Javascript to get by. Whether it's
-                a quick one page site or functional prototype, I'm comfortable in the front end dev world. Lorem
-                ipsum of choice is Hipster Ipsum.
+                a quick one page site or functional prototype, I'm comfortable in the front end dev world.
               </p>
             </div>
         </div>
