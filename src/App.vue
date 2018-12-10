@@ -1,31 +1,20 @@
 <template>
-  <div id="app">
-    <HomePage/>
+  <div>
+    <router-view></router-view>
+    <div id="app"></div>
   </div>
 </template>
 
 <script>
 
-import Vue from 'vue';
-import VueMaterial from 'vue-material';
-import 'vue-material/dist/vue-material.min.css';
-import HomePage from './components/HomePage.vue';
-
-Vue.use(VueMaterial);
-
 // import Vue from 'vue';
-// import { MdButton, MdContent, MdTabs } from 'vue-material/dist/components';
+// import VueMaterial from 'vue-material';
 // import 'vue-material/dist/vue-material.min.css';
 
-// Vue.use(MdButton);
-// Vue.use(MdContent);
-// Vue.use(MdTabs);
+// Vue.use(VueMaterial);
 
 export default {
   name: 'app',
-  components: {
-    HomePage,
-  },
 };
 </script>
 
