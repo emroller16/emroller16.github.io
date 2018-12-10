@@ -138,9 +138,8 @@
           <p class="md-display-1 title-text">An introduction</p>
           <p class="md-display-1" style="font-weight:300; font-size:20px">Nice to meet you!</p><br>
           <p>I'm a UX designer, but outside of work, I love hiking. Some favorite spots: <span class="focus">Baxter State Park, Bryce National Park, and the White Mountains.</span>
-          I'm a self proclaimed book nerd. I'm currently reading <span class="focus">"Algorithmns to live by", Stephen King's Dark Tower series,
-          and Adam Grant's "Originals".</span> Sometimes I like to masquerade as a baker and learning how to make <span class="focus"> bread from scratch
-          </span>.</p>
+          I'm a self proclaimed book nerd. I'm currently reading <span class="focus">Christian and Griffith's "Algorithmns to live by", Stephen King's Dark Tower series,
+          and Adam Grant's "Originals".</span></p>
         </div>
 
       </md-app-content>
