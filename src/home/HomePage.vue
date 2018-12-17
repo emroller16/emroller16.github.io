@@ -84,7 +84,7 @@
             <!-- <div class="md-layout-item img-placeholder" v-for="(item, index) in items" :key="index"> -->
             <div class="md-layout-item portfolio-item">
               <div class="portfolio-inner">
-                <img src="../assets/amistad.png">
+                <img :src='require("../assets/amistad.png")'>
               </div>
                 <div class="portfolio-text">
                   <p>Website Redesign</p>
