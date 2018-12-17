@@ -88,7 +88,7 @@
               </div>
                 <div class="portfolio-text">
                   <p>Website Redesign</p>
-                  <p>Amistad Peer Recovery</p>
+                  <p>Amistad Peer Recovery </p>
               </div>
               <md-button class="md-primary" button><router-link to="/amistad">See more</router-link></md-button>
             </div>
