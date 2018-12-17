@@ -7,11 +7,6 @@
 
 <script>
 
-// import Vue from 'vue';
-// import VueMaterial from 'vue-material';
-// import 'vue-material/dist/vue-material.min.css';
-
-// Vue.use(VueMaterial);
 
 export default {
   name: 'app',
@@ -31,25 +26,8 @@ $primary-color: lightblue;
 @import "~vue-material/dist/theme/all"; // Apply the theme
 
 body {
-  // background: #fafafa;
   font-size: 16px;
   line-height: 1.5;
 }
 
-
-#app {
-  // font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  // -webkit-font-smoothing: antialiased;
-  // -moz-osx-font-smoothing: grayscale;
-  // text-align: center;
-  // color: #2c3e50;
-  // margin-top: 60px;
-}
-
-// main {
-//   margin: 0 auto;
-//   padding: 30px;
-//   width: 1024px;
-//   min-height: 300px;
-// }
 </style>

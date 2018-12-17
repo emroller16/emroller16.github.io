@@ -84,7 +84,7 @@
             <!-- <div class="md-layout-item img-placeholder" v-for="(item, index) in items" :key="index"> -->
             <div class="md-layout-item portfolio-item">
               <div class="portfolio-inner">
-                <img src="../../dist/img/amistad.png">
+                <img src="../assets/amistad.png">
               </div>
                 <div class="portfolio-text">
                   <p>Website Redesign</p>
@@ -95,7 +95,7 @@
 
             <div class="md-layout-item portfolio-item md-small-size-100 md-xsmall-size-100">
               <div class="portfolio-inner">
-                <img src="../../dist/img/root-cellar.webp">
+                <img src="../assets/root-cellar.webp">
               </div>
                 <div class="portfolio-text">
                   <p>Website Redesign</p>
@@ -106,7 +106,7 @@
 
             <div class="md-layout-itemportfolio-item md-small-size-100 md-xsmall-size-100">
               <div class="portfolio-inner">
-                <img src="../../dist/img/cru.jpeg" class="cru-image">
+                <img src="../assets/cru.jpeg" class="cru-image">
               </div>
               <div class="portfolio-text">
                 <p>Website Design</p>
