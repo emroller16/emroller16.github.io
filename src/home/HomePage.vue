@@ -80,9 +80,9 @@
         </div>
 
 
-        <div class="md-layout md-gutter portfolio-section md-small-size-100 md-xsmall-size-100">
+        <div class="md-layout md-gutter portfolio-section">
             <!-- <div class="md-layout-item img-placeholder" v-for="(item, index) in items" :key="index"> -->
-            <div class="md-layout-item portfolio-item">
+            <div class="md-layout-item portfolio-item md-size-33">
               <div class="portfolio-inner">
                 <img src="../assets/amistad.png">
               </div>
@@ -93,7 +93,7 @@
               <md-button class="md-primary" button><router-link to="/amistad">See more</router-link></md-button>
             </div>
 
-            <div class="md-layout-item portfolio-item md-small-size-100 md-xsmall-size-100">
+            <div class="md-layout-item portfolio-item md-size-33">
               <div class="portfolio-inner">
                 <img src="../assets/root-cellar.webp">
               </div>
@@ -104,7 +104,7 @@
                 <md-button class="md-primary" button><router-link to="/root-cellar">See more</router-link></md-button>
             </div>
 
-            <div class="md-layout-itemportfolio-item md-small-size-100 md-xsmall-size-100">
+            <div class="md-layout-item portfolio-item">
               <div class="portfolio-inner">
                 <img src="../assets/cru.jpeg" class="cru-image">
               </div>
