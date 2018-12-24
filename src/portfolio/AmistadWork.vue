@@ -39,8 +39,8 @@
             <div class="md-layout-item md-small-size-100">
               <h3 class="md-display-1">Creating a new look</h3>
               <p>
-                When I met with the director for Amistad, I asked him for credentials to his site. He provided them to me but admitted he'd given up on logging in. WIth an air of defeat, he told me didn't know how to navigate his Wordpress site. I sympathized with his frustration, but I was
-                excited - he was ready for a total rewrite of the site. </p>
+                When I met with the director for Amistad, I asked him for credentials to his site. He provided them to me but admitted he'd given up on logging in. WIth an air of defeat, he told me didn't know how to navigate his Wordpress site. I sympathized with his
+                frustration, but I was excited - he was ready for a total rewrite of the site. </p>
               <p> As we talked about Amistad's vision and far-reaching impact, it was clear to me that the existing site captured none of the true vision of the nonprofit. We talked ideas, brand, and vision. </p>
               <p>Together we created a list of goals for the redesign.
                 <ul>
@@ -89,22 +89,22 @@
           <div class="results-inner">
             <h3 class="md-display-1">The result</h3>
             <p class="md-headline" style="font-weight:300">
-              Sometime after the project completed, Amistad's director called me with great news. He was getting a major donation from someone who had found the nonprofit
-              online, was impressed by their work and decided to give. I couldn't be more excited. My mine goal was to help Amistad create an online presence that accurately
-              respresents the work they do.</p>
-              <p class="md-headline">The new mobile-first site complemented the center's new eheavy emphasis on social media campaigns. </p>
-              <p class="md-healine">Amistad is able to continue to add to and grow the site on their own now.</p>
+              Sometime after the project completed, Amistad's director called me with great news. He was getting a major donation from someone who had found the nonprofit online, was impressed by their work and decided to give. I couldn't be more excited. My mine goal
+              was to help Amistad create an online presence that accurately respresents the work they do.</p>
+            <p class="md-headline">The new mobile-first site complemented the center's new eheavy emphasis on social media campaigns. </p>
+            <p class="md-healine">Amistad is able to continue to add to and grow the site on their own now.</p>
           </div>
         </div>
         <div class="portfolio-navigation">
+
           <md-button class="md-primary " button>
+            <md-icon>chevron_left</md-icon>
             <router-link to="/cru-uconn">Cru at UConn: Becoming relevant
-              <md-icon>chevron_left</md-icon>
             </router-link>
           </md-button>
           <md-button class="md-primary " button>
             <router-link to="/root-cellar">The Root Cellar: Revitalizing a site fallen wayside
-              <md-icon>chevron_left</md-icon>
+              <md-icon>chevron_right</md-icon>
             </router-link>
           </md-button>
         </div>
@@ -120,8 +120,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.md-layout {
-  margin-bottom: 100px;
-}
-
+  .md-layout {
+    margin-bottom: 100px;
+  }
 </style>

@@ -89,23 +89,24 @@
           </div>
         </div>
 
-          <div class="results">
-            <div class="results-inner">
-              <h3 class="md-display-1">The result</h3>
-              <p class="main-content md-headline" style="font-weight:300">
-                The results? A clean, conversation site that features The Root Cellar's initiatives, showcases their story, invites people to donate, and calls potential volunteers to action.
-              </p>
-            </div>
+        <div class="results">
+          <div class="results-inner">
+            <h3 class="md-display-1">The result</h3>
+            <p class="main-content md-headline" style="font-weight:300">
+              The results? A clean, conversation site that features The Root Cellar's initiatives, showcases their story, invites people to donate, and calls potential volunteers to action.
+            </p>
           </div>
+        </div>
         <div class="portfolio-navigation">
           <md-button class="md-primary " button>
+            <md-icon>chevron_left</md-icon>
+
             <router-link to="/amistad">Amistad: A total refresh
-              <md-icon>chevron_left</md-icon>
             </router-link>
           </md-button>
           <md-button class="md-primary " button>
             <router-link to="/cru-uconn">Cru: Becoming relevant
-              <md-icon>chevron_left</md-icon>
+              <md-icon>chevron_right</md-icon>
             </router-link>
           </md-button>
         </div>
@@ -121,9 +122,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.md-layout {
-  margin-bottom: 100px;
-}
-
-
+  .md-layout {
+    margin-bottom: 100px;
+  }
 </style>

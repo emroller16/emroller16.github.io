@@ -85,13 +85,14 @@
         </div>
         <div class="portfolio-navigation">
           <md-button class="md-primary " button>
+                          <md-icon>chevron_left</md-icon>
+
             <router-link to="/root-cellar">The Root Cellar: Revitalizing a site fallen wayside
-              <md-icon>chevron_left</md-icon>
             </router-link>
           </md-button>
           <md-button class="md-primary " button>
             <router-link to="/amistad">Amistad: A total refresh
-              <md-icon>chevron_left</md-icon>
+              <md-icon>chevron_right</md-icon>
             </router-link>
           </md-button>
         </div>
