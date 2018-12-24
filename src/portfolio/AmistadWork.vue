@@ -89,10 +89,10 @@
           <div class="results-inner">
             <h3 class="md-display-1">The result</h3>
             <p class="md-headline" style="font-weight:300">
-              Sometime after the project completed, Amistad's director called me with great news. He was getting a major donation from someone who had found the nonprofit online, was impressed by their work and decided to give. I couldn't be more excited. My mine goal
+              Sometime after the project completed, Amistad's director called me with great news. He was getting a major donation from someone who had found the nonprofit online, was impressed by their work and decided to give. I couldn't be more excited. My main goal
               was to help Amistad create an online presence that accurately respresents the work they do.</p>
-            <p class="md-headline">The new mobile-first site complemented the center's new eheavy emphasis on social media campaigns. </p>
-            <p class="md-healine">Amistad is able to continue to add to and grow the site on their own now.</p>
+            <p class="md-headline">The new mobile-first site complements the center's strategic initiatives around their social media presence.</p>
+            <p class="md-headline">Amistad is able to continue to add to and grow the site on their own.</p>
           </div>
         </div>
         <div class="portfolio-navigation">
@@ -122,5 +122,10 @@ export default {
 <style lang="scss" scoped>
   .md-layout {
     margin-bottom: 100px;
+  }
+  .results {
+    .md-headline {
+      font-weight: 300;
+    }
   }
 </style>
