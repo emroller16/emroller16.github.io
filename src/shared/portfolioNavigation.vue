@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import CruWork from '../portfolio/CruWork.vue';
+import CruWork from '../views/portfolio/CruWork.vue';
 
 export default {
   name: 'portfolioNavigation',
