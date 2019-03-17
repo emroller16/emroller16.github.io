@@ -9,7 +9,7 @@
         <div class="inner-portfolio-container">
           <div class="md-layout md-gutter portfolio-header">
             <div class="md-layout-item md-size-60 md-small-size-100">
-              <router-link style="font-size:14px" to="/">Back to home</router-link>
+              <router-link class="back-link" to="/"><i class="material-icons">chevron_left</i>Back to Work</router-link>
               <h3 class="md-display-3">Hold that Thought: The UX of editing</h3>
               <h3 class="md-display-1">Presentation</h3>
               <p class="md-headline">

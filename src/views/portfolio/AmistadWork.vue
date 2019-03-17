@@ -90,8 +90,11 @@
           </div>
         </div>
         <div class="portfolio-navigation">
+        
+        <div :items="items" v-for="item in items" :key="item.name">text div here{{item.index}}</div>
 
-          <md-button class="md-primary " button>
+
+          <md-button class="md-primary" button>
             <md-icon>chevron_left</md-icon>
             <router-link to="/cru-uconn">Cru at UConn: Becoming relevant
             </router-link>
@@ -109,9 +112,12 @@
 
 <script>
 import AppNav from '../../shared/appNav.vue';
+import WorkPage from '../WorkPage.vue';
+
 
 export default {
   name: 'AmistadWork',
+  props: ['items'],
 };
 </script>
 

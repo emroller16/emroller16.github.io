@@ -8,6 +8,7 @@
       <div class="md-layout md-gutter portfolio-header">
         <div class="inner-portfolio-container">
             <div class="md-layout-item md-size-60 md-small-size-100">
+              <router-link class="back-link" to="/"><i class="material-icons">chevron_left</i>Back to Work</router-link>
               <h3 class="md-display-3">Cru at UConn</h3>
               <h3 class="md-display-1">Becoming relevant</h3>
               <p class="md-headline">
@@ -114,6 +115,14 @@ export default {
     color: white!important;
   }
 
+  .back-link {
+    font-size: 	0.875rem;
+    
+    i {
+      vertical-align: top;
+    }
+  }
+
   .inner-portfolio-container {
     max-width: 90%;
     margin: 0 auto;
@@ -152,7 +161,7 @@ export default {
   .results {
     padding-top: 50px;
     padding-bottom: 80px;
-    background-color: #fafafa;
+    background-color: #EEEEEE;
     .results-inner {
       max-width: 90%;
       margin: 0 auto;

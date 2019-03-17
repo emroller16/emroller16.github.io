@@ -53,8 +53,8 @@
             <md-chip
               class="md-accent"
               md-clickable
-              v-bind:class="{ active: currentFilter === 'funStuff' }"
-              v-on:click="setFilter('funStuff')"
+              v-bind:class="{ active: currentFilter === 'research' }"
+              v-on:click="setFilter('research')"
             >Research</md-chip>
             <md-chip
               class="md-accent"
@@ -74,9 +74,14 @@
               v-if="currentFilter === item.filterType || currentFilter === 'all'"
               transition="expand"
             >
-              <div style="width:200px">
+              <div class="portfolio-items-container">
                 <p class="md-subtitle">{{item.type}}</p>
                 <p class="md-headline">{{item.name}}</p>
+                <span class="project-icons">
+                  <i class="material-icons" v-if="item.mobile">phone_iphone</i>
+                  <i class="material-icons" v-if="item.desktop">desktop_windows</i>
+                </span>
+                <p>{{item.description}}</p>
                 <md-button class="md-raised portfolio-button">
                   <router-link :to="item.link">Read more</router-link>
                 </md-button>
@@ -99,6 +104,9 @@ $accent-cream: #e9dccd;
 .md-app .md-content.md-theme-default {
   border: none !important;
   height: 100vh;
+}
+.md-chip.active {
+  background-color: $primary-burgundy !important;
 }
 
 .md-toolbar.md-theme-default .md-title,
@@ -148,6 +156,10 @@ button.md-button .md-theme-default .md-active {
 .portfolio {
   margin-left: 0 !important;
   margin-right: 0 !important;
+}
+
+.portfolio-items-container {
+  width: 300px;
 }
 
 .portfolio-item {
@@ -238,74 +250,116 @@ button.md-button .md-theme-default .md-active {
 </style>
 
 <script>
-import AppNav from '../shared/appNav.vue';
+import AppNav from "../shared/appNav.vue";
 
 export default {
-  name: 'WorkPage',
+  name: "WorkPage",
   data: () => ({
     items: [
       {
-        name: 'Katie Arnold Photography',
-        type: 'Web Design',
-        link: '/katie-arnold',
-        filterType: 'design',
+        index: 1,
+        name: "Tyler Utility Billing Portal",
+        type: "Web Design",
+        description:
+          "Designing a responsive UB solution and piloting dual scrum agile with a development team.",
+        link: "/ubp",
+        filterType: "design",
+        mobile: true,
+        desktop: true
       },
       {
-        name: 'Cru at UConn',
-        type: 'Web Design',
-        link: '/cru-uconn',
-        filterType: 'design',
+        index: 2,
+        name: "Katie Arnold Photography",
+        type: "Web Design",
+        link: "/katie-arnold",
+        description:
+          "A responsive site built in Wordpress to express Katie's brand.",
+        filterType: ["design", "development"],
+        mobile: true,
+        desktop: true
       },
       {
-        name: 'Amistad',
-        type: 'Web Design',
-        link: '/amistad',
-        filterType: 'design',
+        index: 3,
+        name: "Hold That Thought: The UX of Editing",
+        type: "Research",
+        description:
+          "Research around web editing best practices delivered to development teams",
+        link: "/save-research",
+        filterType: "research",
+        mobile: false,
+        desktop: false
+      },
+      {        
+        index: 4,
+        name: "Cru at UConn",
+        type: "Web Design",
+        description:
+          "A responsive site built in Squarespace that Cru can maintain going forward.",
+        link: "/cru-uconn",
+        filterType: "design",
+        mobile: true,
+        desktop: true
       },
       {
-        name: 'A case in meta: Portfolio',
-        type: 'Web development',
-        link: '/portoflio',
-        filterType: 'development',
+        index: 5,
+        name: "Amistad",
+        type: "Web Design",
+        description: "A responsive website refresh built in Wordpress.",
+        link: "/amistad",
+        filterType: "design",
+        mobile: true,
+        desktop: true
       },
       {
-        name: 'The Root Cellar',
-        type: 'Web design',
-        link: '/root-cellar',
-        filterType: 'design',
+        index: 5,
+        name: "A case in meta: Portfolio",
+        type: "Web development",
+        description: "A custom site built in Vue.",
+        link: "/portoflio",
+        filterType: "development",
+        mobile: true,
+        desktop: true
       },
       {
-        name: 'Hold That Thought: The UX of Editing',
-        type: 'Research',
-        link: '/save-research',
-        filterType: 'research',
+        index: 6,
+        name: "The Root Cellar",
+        type: "Web design",
+        description: "A responsive website refresh designed in Wix.",
+        link: "/root-cellar",
+        filterType: "design",
+        mobile: true,
+        desktop: true
       },
       {
-        name: 'Human Machine Collaboration',
-        type: 'Research',
-        link: '/hmc',
-        filterType: 'research',
+        index: 7,
+        name: "Human Machine Collaboration",
+        type: "Research",
+        description:
+          "An exploration into how users and machines can work well together, delivered to app teams.",
+        link: "/hmc",
+        filterType: "research",
+        mobile: false,
+        desktop: false
       },
       {
-        name: 'UX Research for Building Better Products',
-        type: 'Research',
-        link: '/uxr',
-        filterType: 'research',
-      },
-      {
-        name: 'Tyler Utility Billing Portal',
-        type: 'Design',
-        link: '/ubp',
-        filterType: 'design',
-      },
+        index: 8,
+        name: "UX Research for Building Better Products",
+        type: "Research",
+        description:
+          "Sharing a framework to create a 'UX strategy' with app teams.",
+        link: "/uxr",
+        filterType: "research",
+        mobile: false,
+        desktop: false
+      }
     ],
 
-    currentFilter: 'all',
+    currentFilter: "all"
   }),
   methods: {
     setFilter(filter) {
       this.currentFilter = filter;
-    },
-  },
+    }
+  }
 };
 </script>

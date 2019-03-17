@@ -10,14 +10,14 @@
 
           <div class="md-layout md-gutter portfolio-header">
             <div class="md-layout-item md-size-60 md-small-size-100">
-              <router-link style="font-size:14px" to="/">Back to home</router-link>
+              <router-link class="back-link" to="/"><i class="material-icons">chevron_left</i>Back to Work</router-link>
               <h3 class="md-display-3">Katie Arnold Photography</h3>
               <h3 class="md-display-1">Expressing soulful love</h3>
               <p class="md-headline">
                 A talented photographer, Katie needed a site to connect with clients and showcase high quality images.
               </p>
 
-              <p class="md-headline">Check out <a href="https://katiearnoldphotography.com/">Katie's site</a></p>
+              <p class="md-headline">Check out <a href="https://katiearnoldphotography.com/">Katie's site</a>.</p>
 
             </div>
             <div class="md-layout-item md-small-size-100">
@@ -81,13 +81,12 @@
 
           <div class="md-layout md-gutter">
             <div class="md-layout-item md-size-50 md-small-size-100">
-              <h3 class="md-display-1">Another thing</h3>
-
+              <h3 class="md-display-1">Key plugins</h3>
               <p class="main-content">
-              Katie's favorite time to shoot is what she calls "Golden Hour" - the hour just around dusk. Her style is inspired
-              by the golden glow of the setting sun with its warmth and ease and natural settings as a canvas.
-              To better express Katie's unique brand, we captured her love for Golden Hour in a custom color palette reflecting
-              both muted sunset and natural colors.
+              To meet Katie's strategic goals for attracting clients through Pinterest and managing new leads through a third party app, I
+              added a Pinterest plugin to allow users to pin photos from her website with no additional work on her part. I also embedded a
+              contact form that integrates with her lead-capture app so that she can manage new leads and potential clients all through a 
+              single third party app, instead of managing through her website or email in addition. 
               </p>
             </div>
             <div class="md-layout-item md-small-size-100 image-container">
@@ -103,7 +102,8 @@
             <h3 class="md-display-1">The result</h3>
             <p class="md-headline" style="font-weight:300">
             "This is the site I always hoped I'd have!" Katie told me with excitement. Finally, a site that reflects the quality of her work
-            and is true to her personal brand, while inviting potential customers to book online or learn more.</p>
+            and is true to her personal brand, while inviting potential customers to book online or learn more. From what I've set up for her
+            in Wordpress, she's confident maintaining her site going forward.</p>
           </div>
         </div>
         <div class="portfolio-navigation">
